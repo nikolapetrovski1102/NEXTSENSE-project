@@ -1,0 +1,23 @@
+# Ignore files for .NET Core project
+C:/Users/nikpe/OneDrive/Documents/NEXTSENSE-local/backend/bin/
+C:/Users/nikpe/OneDrive/Documents/NEXTSENSE-local/backend/obj/
+C:/Users/nikpe/OneDrive/Documents/NEXTSENSE-local/backend/backend/bin/
+C:/Users/nikpe/OneDrive/Documents/NEXTSENSE-local/backend/backend/obj/
+
+# User-specific files
+C:/Users/nikpe/OneDrive/Documents/NEXTSENSE-local/backend/*.user
+C:/Users/nikpe/OneDrive/Documents/NEXTSENSE-local/backend/backend/*.user
+C:/Users/nikpe/OneDrive/Documents/NEXTSENSE-local/backend/*.suo
+C:/Users/nikpe/OneDrive/Documents/NEXTSENSE-local/backend/backend/*.suo
+
+# Ignore environment files
+C:/Users/nikpe/OneDrive/Documents/NEXTSENSE-local/backend/appsettings*.json
+C:/Users/nikpe/OneDrive/Documents/NEXTSENSE-local/backend/backend/appsettings*.json
+
+# Ignore node_modules and build files for React
+C:/Users/nikpe/OneDrive/Documents/NEXTSENSE-local/frontend/node_modules/
+C:/Users/nikpe/OneDrive/Documents/NEXTSENSE-local/frontend/build/
+
+# Logs and temp files
+C:/Users/nikpe/OneDrive/Documents/NEXTSENSE-local/**/*.log
+C:/Users/nikpe/OneDrive/Documents/NEXTSENSE-local/**/temp/
