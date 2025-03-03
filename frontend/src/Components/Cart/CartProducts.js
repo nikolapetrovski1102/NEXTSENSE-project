@@ -63,7 +63,7 @@ export default function CartProducts() {
 
       axios.post("Order/create-order", checkoutDTO).then((response) => {
         if (response.status === 200) {
-          setNotification({ message: 'Checkout successful', status: 'success' });
+          setNotification({ message: 'Payment successful', status: 'success' });
           setTimeout(() => {
             localStorage.removeItem("cart");
             window.location.href = '/orders';
@@ -76,7 +76,7 @@ export default function CartProducts() {
   };
 
   return (
-    <div>
+    <div className="p-4" >
       {notification && (
           <Notification 
               message={notification.message}
@@ -85,14 +85,16 @@ export default function CartProducts() {
           />
       )}
       {cartItems.length === 0 ? (
-        <p>Your cart is empty</p>
+        <div className="h-[60dvh] flex flex-col items-center justify-center text-gray-500">
+          <p className="text-lg font-semibold">Your cart is empty</p>
+          <p className="text-sm mt-2">Start adding items to your cart and check back <a href="/products" > here</a>!</p>
+        </div>
       ) : (
         <section className="bg-white antialiased">
           <div className="mx-auto max-w-screen-xl px-4 2xl:px-0">
-            <h2 className="text-xl font-semibold text-gray-900 sm:text-2xl">Shopping Cart</h2>
-            <div className="mt-6 sm:mt-8 md:gap-6 lg:flex lg:items-start xl:gap-8">
+            <div className=" md:gap-6 lg:flex lg:items-start xl:gap-8">
               {checkout === false ? (
-                <div className="mx-auto w-full flex-none lg:max-w-2xl xl:max-w-4xl">
+                <div className="mx-auto w-full flex-none lg:max-w-lg xl:max-w-2xl overflow-y-auto max-h-[62vh]">
                   <div className="space-y-6">
                     {cartItems.map((item) => (
                       <div key={item.id} className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm md:p-6">

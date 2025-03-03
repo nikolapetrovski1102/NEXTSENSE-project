@@ -56,5 +56,18 @@ namespace backend.Controllers
             }
         }
 
+        [HttpPost("cancel-order/{orderId}")]
+        public async Task<IActionResult> CancelOrder(int orderId)
+        {
+            try
+            {
+                return Ok(await _orderService.CancelOrderAsync(orderId));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
     }
 }

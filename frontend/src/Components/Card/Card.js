@@ -11,18 +11,13 @@ export default function Card({
     const [notification, setNotification] = useState(null);
 
     const handleAddToCart = () => {
-        if (stockQuantity === 0) {
-            setNotification({ message: "This item is out of stock!", status: 'error' });
-            return;
-        }
-    
         const existingCart = localStorage.getItem("cart");
         let cart = existingCart ? JSON.parse(existingCart) : [];
     
         const existingItemIndex = cart.findIndex(item => item.id === id);
     
         if (existingItemIndex !== -1) {
-            const updatedCart = cart.map((item, index) => {
+            let updatedCart = cart.map((item, index) => {
                 if (index === existingItemIndex) {
                     const newQuantity = item.quantity + 1;
                     if (newQuantity > stockQuantity) {
@@ -33,23 +28,23 @@ export default function Card({
                 }
                 return item;
             });
-            
+    
             if (updatedCart[existingItemIndex].quantity > cart[existingItemIndex].quantity) {
                 localStorage.setItem("cart", JSON.stringify(updatedCart));
+                setNotification({ message: `${name} added to cart!`, status: 'success' }); // ✅ Always fire the notification
             }
-
-            setNotification({ message: `${name} added to cart!`, status: 'success' });
-
         } else {
             if (stockQuantity < 1) {
                 setNotification({ message: "This item is out of stock!", status: 'error' });
                 return;
             }
-            
+    
             const newItem = { id, name, price, quantity: 1, stockQuantity };
             localStorage.setItem("cart", JSON.stringify([...cart, newItem]));
+            setNotification({ message: `${name} added to cart!`, status: 'success' }); // ✅ Fix for new items
         }
     };
+    
     
     return (
         <div className={`${stockQuantity === 0 ? "opacity-50 pointer-events-none" : ""} relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-[600px] h-[50dvh]`}>
@@ -83,7 +78,7 @@ export default function Card({
                         )}
                     </div>
                 <button
-                    onClick={handleAddToCart}
+                    onClick={() => handleAddToCart()}
                     className="rounded-md w-full mt-6 bg-slate-200 py-2 px-4 border border-transparent text-center text-md text-gray-800 transition-all shadow-md hover:shadow-lg focus:bg-gray-800 focus:shadow-none active:bg-gray-800 hover:bg-gray-800 hover:text-white active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                     type="button"
                     disabled={stockQuantity === 0}

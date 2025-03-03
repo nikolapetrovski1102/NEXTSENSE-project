@@ -90,3 +90,4 @@ C:\Users\nikpe\OneDrive\Documents\NEXTSENSE-local\backend\backend\obj\Debug\net8
 C:\Users\nikpe\OneDrive\Documents\NEXTSENSE-local\backend\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 C:\Users\nikpe\OneDrive\Documents\NEXTSENSE-local\backend\backend\obj\Debug\net8.0\ref\backend.dll
 C:\Users\nikpe\OneDrive\Documents\NEXTSENSE-local\backend\backend\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\nikpe\OneDrive\Documents\NEXTSENSE-local\backend\backend\obj\Debug\net8.0\backend.sourcelink.json

@@ -3,35 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|c:\\users\\nikpe\\onedrive\\documents\\nextsense-local\\backend\\backend\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|solutionrelative:backend\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|c:\\users\\nikpe\\onedrive\\documents\\nextsense-local\\backend\\backend\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|solutionrelative:backend\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|c:\\users\\nikpe\\onedrive\\documents\\nextsense-local\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|c:\\users\\nikpe\\onedrive\\documents\\nextsense-local\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|c:\\users\\nikpe\\onedrive\\documents\\nextsense-local\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|c:\\users\\nikpe\\onedrive\\documents\\nextsense-local\\backend\\backend\\service\\implementation\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|solutionrelative:backend\\service\\implementation\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|c:\\users\\nikpe\\onedrive\\documents\\nextsense-local\\backend\\backend\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|solutionrelative:backend\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|c:\\users\\nikpe\\onedrive\\documents\\nextsense-local\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|c:\\users\\nikpe\\onedrive\\documents\\nextsense-local\\backend\\backend\\service\\implementation\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|solutionrelative:backend\\service\\implementation\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|c:\\users\\nikpe\\onedrive\\documents\\nextsense-local\\backend\\backend\\service\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|solutionrelative:backend\\service\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|c:\\users\\nikpe\\onedrive\\documents\\nextsense-local\\backend\\backend\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|solutionrelative:backend\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|c:\\users\\nikpe\\onedrive\\documents\\nextsense-local\\backend\\backend\\service\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|solutionrelative:backend\\service\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|c:\\users\\nikpe\\onedrive\\documents\\nextsense-local\\backend\\backend\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|solutionrelative:backend\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|c:\\users\\nikpe\\onedrive\\documents\\nextsense-local\\backend\\backend\\utility\\nsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,10 +54,6 @@
       "RelativeMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|solutionrelative:backend\\models\\order\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|c:\\users\\nikpe\\onedrive\\documents\\nextsense-local\\backend\\backend\\service\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|solutionrelative:backend\\service\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|c:\\users\\nikpe\\onedrive\\documents\\nextsense-local\\backend\\backend\\models\\order\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFC12D53-40FB-430D-8874-FF8ACA34BA5C}|backend\\backend.csproj|solutionrelative:backend\\models\\order\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -61,7 +65,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 287,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,15 +101,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "backend\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "backend\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\DTOs\\Auth\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "backend\\DTOs\\Auth\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\DTOs\\Auth\\RegisterDTO.cs",
+              "RelativeToolTip": "backend\\DTOs\\Auth\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T20:04:51.395Z",
+              "WhenOpened": "2025-03-02T23:58:14.684Z",
               "EditorCaption": ""
             },
             {
@@ -116,79 +120,90 @@
               "RelativeDocumentMoniker": "backend\\appsettings.json",
               "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\appsettings.json",
               "RelativeToolTip": "backend\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-02T19:04:22.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Service\\Implementation\\OrderService.cs",
+              "RelativeDocumentMoniker": "backend\\Service\\Implementation\\OrderService.cs",
+              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Service\\Implementation\\OrderService.cs",
+              "RelativeToolTip": "backend\\Service\\Implementation\\OrderService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAtwBkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:02:45.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Service\\IOrderService.cs",
+              "RelativeDocumentMoniker": "backend\\Service\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Service\\IOrderService.cs",
+              "RelativeToolTip": "backend\\Service\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:02:21.639Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "backend\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "backend\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T19:02:23.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Service\\Implementation\\AuthService.cs",
-              "RelativeDocumentMoniker": "backend\\Service\\Implementation\\AuthService.cs",
-              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Service\\Implementation\\AuthService.cs",
-              "RelativeToolTip": "backend\\Service\\Implementation\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T16:04:24.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Program.cs",
               "RelativeDocumentMoniker": "backend\\Program.cs",
               "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Program.cs",
               "RelativeToolTip": "backend\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T19:04:36.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Products.cs",
-              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Models\\Products.cs",
-              "RelativeDocumentMoniker": "backend\\Models\\Products.cs",
-              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Models\\Products.cs",
-              "RelativeToolTip": "backend\\Models\\Products.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "backend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T17:11:59.385Z",
+              "WhenOpened": "2025-03-02T20:04:51.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OrderDetails.cs",
-              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Models\\Order\\OrderDetails.cs",
-              "RelativeDocumentMoniker": "backend\\Models\\Order\\OrderDetails.cs",
-              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Models\\Order\\OrderDetails.cs",
-              "RelativeToolTip": "backend\\Models\\Order\\OrderDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Service\\Implementation\\AuthService.cs",
+              "RelativeDocumentMoniker": "backend\\Service\\Implementation\\AuthService.cs",
+              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Service\\Implementation\\AuthService.cs",
+              "RelativeToolTip": "backend\\Service\\Implementation\\AuthService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAD4vy0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T16:54:14.064Z",
+              "WhenOpened": "2025-03-02T16:04:24.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "backend\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAIwEUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:00:47.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Orders.cs",
               "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Models\\Order\\Orders.cs",
               "RelativeDocumentMoniker": "backend\\Models\\Order\\Orders.cs",
@@ -196,25 +211,47 @@
               "RelativeToolTip": "backend\\Models\\Order\\Orders.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T16:16:21.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T16:16:21.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "backend\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "backend\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "backend\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T14:00:47.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T19:02:23.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
+              "Title": "OrderDetails.cs",
+              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Models\\Order\\OrderDetails.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Order\\OrderDetails.cs",
+              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Models\\Order\\OrderDetails.cs",
+              "RelativeToolTip": "backend\\Models\\Order\\OrderDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:54:14.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Products.cs",
+              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Models\\Products.cs",
+              "RelativeToolTip": "backend\\Models\\Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T17:11:59.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -222,12 +259,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ViewState": "AgIAAAMBAAAAAAAAAAAewAkBAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-03-02T19:58:52.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T19:58:52.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "NSDbContext.cs",
               "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Utility\\NSDbContext.cs",
               "RelativeDocumentMoniker": "backend\\Utility\\NSDbContext.cs",
@@ -235,34 +271,7 @@
               "RelativeToolTip": "backend\\Utility\\NSDbContext.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAEwGQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T16:08:09.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Service\\Implementation\\OrderService.cs",
-              "RelativeDocumentMoniker": "backend\\Service\\Implementation\\OrderService.cs",
-              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Service\\Implementation\\OrderService.cs",
-              "RelativeToolTip": "backend\\Service\\Implementation\\OrderService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAEwC8AAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T16:02:45.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Service\\IOrderService.cs",
-              "RelativeDocumentMoniker": "backend\\Service\\IOrderService.cs",
-              "ToolTip": "C:\\Users\\nikpe\\OneDrive\\Documents\\NEXTSENSE-local\\backend\\backend\\Service\\IOrderService.cs",
-              "RelativeToolTip": "backend\\Service\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T16:02:21.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T16:08:09.133Z"
             }
           ]
         },

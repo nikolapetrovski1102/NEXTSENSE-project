@@ -64,7 +64,7 @@ export default function Auth () {
                 onClose={() => setNotification(null)} 
             />
         )}
-        <div className="flex justify-center m-10">
+        <div className="flex justify-center">
             <div className="relative flex flex-col bg-salte-100 shadow-sm border border-slate-200 w-96 rounded-lg my-6">
                 <div className="relative m-2.5 items-center flex justify-center text-white h-24 rounded-md bg-slate-800">
                     <h3 className="text-2xl">Sign In</h3>
@@ -113,7 +113,7 @@ export default function Auth () {
                     </button>
                     <p className="flex justify-center mt-6 text-sm text-slate-600">
                         Don&apos;t have an account?
-                        <a href="#signup" className="ml-1 text-sm font-semibold text-slate-700 underline">
+                        <a href="/register" className="ml-1 text-sm font-semibold text-slate-700 underline">
                             Sign up
                         </a>
                     </p>

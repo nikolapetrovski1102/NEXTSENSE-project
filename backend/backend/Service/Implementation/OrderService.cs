@@ -15,6 +15,40 @@ namespace backend.Service.Implementation
             _context = context;
         }
 
+        public async Task<bool> CancelOrderAsync(int orderId)
+        {
+            try
+            {
+                Orders order = await _context.Orders.FindAsync(orderId);
+                if (order == null)
+                    return false;
+
+                List<OrderDetails> orderDetails = await _context.OrderDetails
+                    .Where(e => e.OrderId == orderId)
+                    .ToListAsync();
+
+                order.Status = OrderStatus.Canceled;
+
+                foreach (var detail in orderDetails)
+                {
+                    var product = await _context.Products.FindAsync(detail.ProductId);
+                    if (product != null)
+                    {
+                        product.Quantity += detail.Quantity;
+                    }
+                }
+
+                await _context.SaveChangesAsync();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error canceling order: {ex.Message}");
+            }
+        }
+
+
         public async Task<bool> CreateOrderAsync(CheckoutDTO checkoutDTO)
         {
             try

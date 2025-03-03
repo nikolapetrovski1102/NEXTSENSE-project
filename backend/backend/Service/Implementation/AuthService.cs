@@ -2,22 +2,11 @@
 using backend.DTOs;
 using backend.Models;
 using backend.Utility;
-
-using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Cryptography.KeyDerivation;
-using Microsoft.AspNetCore.Identity.Data;
 using System.Security.Cryptography;
-using System.Text.Json.Serialization;
 using System.Text.Json;
-using Azure;
 
 namespace backend.Service.Implementation;
 
@@ -47,7 +36,7 @@ public class AuthService : IAuthService
             Username = newUser.Username,
             Email = newUser.Email,
             Password = newUser.Password,
-            PhoneNumber = newUser.PhoneNumber
+            PhoneNumber = newUser.Phone
         };  
 
         _context.Users.Add(user);

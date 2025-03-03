@@ -144,6 +144,29 @@
         }
       }
     },
+    "/api/Order/cancel-order/{orderId}": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "parameters": [
+          {
+            "name": "orderId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Products/get-all-products/{offset}/{pageSize}": {
       "get": {
         "tags": [
@@ -321,7 +344,7 @@
             "type": "string",
             "nullable": true
           },
-          "phoneNumber": {
+          "phone": {
             "type": "string",
             "nullable": true
           }

@@ -82,15 +82,17 @@ export default function ProductsList() {
     const handleFilterProducts = () => {
         if (hasMoreProducts) setHasMoreProducts(false);
 
+        setLoading(true);
         axios.post('Products/filtered-products', selectedFilters).then((response) => {
             if (response.status === 200){
                 setProducts(response.data);
+                setLoading(false);
             }
         })
     };
 
     return (
-        <div className="flex gap-4 pl-1">
+        <div className="flex gap-2 pl-1">
             {notification && (
                 <Notification 
                     message={notification.message} 
@@ -98,7 +100,7 @@ export default function ProductsList() {
                     onClose={() => setNotification(null)} 
                 />
             )}
-            <div className="w-1/5 bg-gray-100 p-4 rounded-md overflow-y-auto max-h-[65vh]">
+            <div className="hidden md:w-1/5 lg:block bg-gray-100 p-4 rounded-md overflow-y-auto h-[75dvh]">
             <h3 className="text-lg font-semibold">Filters</h3>
                 <button onClick={() => setSelectedFilters({ manufacturers: [], sort: '' })} className={`${selectedFilters.manufacturers.length === 0 && selectedFilters.sort === '' ? 'pointer-events-none opacity-50' : 'underline'} ml-3 mt-4 mb-4 text-sm text-gray-700 hover:text-gray-900`} >
                     Clear filter
@@ -166,11 +168,15 @@ export default function ProductsList() {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col items-center w-[80%]">
-                <div className="overflow-y-auto flex flex-wrap justify-center gap-4 h-[65vh] w-full">
+            <div className="flex flex-col items-start w-[100%] sm:[60%]">
+                <div className='ml-3 mt-3'>
+                    <h3>{ selectedFilters.manufacturers.length != 0 ? `Showing filters: ${selectedFilters.manufacturers.join(", ")}` : ''}</h3>
+                    <h3>{ selectedFilters.sort != '' ? `Sorted by: ${selectedFilters.sort}` : ''}</h3>
+                </div>
+                <div className="overflow-y-auto flex flex-wrap justify-center gap-2 h-[70dvh] w-full">
                     {products.length > 0 ? (
                         products.map((product, _i) => (
-                            <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-2 flex justify-around" key={_i}>
+                            <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 flex justify-around" key={_i}>
                                 <Card 
                                     id={product.id}
                                     name={product.name}

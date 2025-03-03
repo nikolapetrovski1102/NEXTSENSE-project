@@ -33,6 +33,22 @@
   },
   {
     "ContainingType": "backend.Controllers.OrderController",
+    "Method": "CancelOrder",
+    "RelativePath": "api/Order/cancel-order/{orderId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.OrderController",
     "Method": "CreateOrder",
     "RelativePath": "api/Order/create-order",
     "HttpMethod": "POST",

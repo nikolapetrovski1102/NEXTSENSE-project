@@ -80,7 +80,7 @@ export default function Layout({ children, title }) {
                     </div>
                 </nav>
 
-                <hr className="h-px my-4 m-auto w-[90%] bg-gray-200 border-0 dark:bg-gray-700" />
+                <hr className="h-px m-auto w-[90%] bg-gray-200 border-0 dark:bg-gray-700" />
 
                 <header className="shadow-sm">
                     <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
@@ -88,7 +88,7 @@ export default function Layout({ children, title }) {
                     </div>
                 </header>
                 <main>
-                    <div className="shadow-lg mx-auto mt-4 max-w-[80%] pr-4 py-1 sm:pr-6 lg:pr-8 border border-solid rounded-lg bg-white h-[66dvh]">
+                    <div className="shadow-lg mx-auto max-w-[80%] w-auto pr-4 py-1 sm:pr-6 lg:pr-8 border border-solid rounded-lg bg-white h-fit">
                         <div className="h-full" >
                             {children}
                         </div>

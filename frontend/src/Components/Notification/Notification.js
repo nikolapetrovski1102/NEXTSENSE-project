@@ -15,7 +15,7 @@ export default function Notification({ message, status, onClose, onUndo }) {
     if (!isVisible) return null;
 
     return (
-        <div className={`fixed bottom-5 right-5 flex items-center w-full max-w-xs p-4 text-white rounded-lg shadow-lg
+        <div className={`z-50 fixed bottom-5 right-5 flex items-center w-full max-w-xs p-4 text-white rounded-lg shadow-lg
             ${status === "success" ? "bg-green-500" : "bg-red-500"}`} role="alert">
             <div className="text-sm font-normal">{message}</div>
             <div className="flex items-center ms-auto space-x-2">
